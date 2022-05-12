@@ -1,0 +1,131 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+    width:1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+h1{
+    font-size: 100%;
+}
+main{
+    width:100%;
+    display: block;
+    border-bottom:1px solid #ccc;
+    position:relative;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    /* font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px; */
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:96%;
+    font-size: 80%;
+    margin: 0 3%;
+    text-align: center;
+}
+li{
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #fff;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+    color:#0d7dfd;
+}
+li:hover{
+    background: #0d7dfd;
+    color:#fff;
+}
+
+.todo_wrapper {
+    width: 96%;
+}
+.todo_text{
+  margin: 10px 3%;
+  width: 95%;
+  height: 100px;
+  font-size:80%;
+  box-shadow: 3px 3px 3px 3px #555;
+  background-color:rgb(241, 239, 239);
+}
+#key{
+    margin:0 3%;
+    width: 95%;
+    font-size:80%;
+    background-color: #e1efff;
+    box-shadow: 3px 3px 3px 3px #555;
+}
+table{
+    margin: 10px auto;
+    border:1px solid #8dc3f5;
+    width:95%;
+    
+}
+
+tr {
+    width: 200px;
+
+}
+th{
+    width:200px;
+    font-size:20px;
+    background-color:#d0e7fc;
+    border-bottom: 1px solid #8dc3f5;
+}
+td{
+    width:32px;
+    font-size:16px;
+    background-color:rgb(241, 239, 239);
+    border-bottom: 1px solid #8dc3f5;
+}
+
+
+.kanban_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+/* flexだとなぜか反応しない謎 */
+#yet{
+    width: 480px;
+    
+}
+
+#progress{
+    width: 480px;
+    
+}
+
+#done{
+    width: 480px;
+    
+}
+
+.kanban_action p {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.yattane {
+    background-color: white;
+    display: none;
+}
